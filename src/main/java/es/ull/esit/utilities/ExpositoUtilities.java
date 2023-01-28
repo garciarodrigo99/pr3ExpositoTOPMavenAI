@@ -41,7 +41,8 @@ public class ExpositoUtilities {
             Logger.getLogger(ExpositoUtilities.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             try {
-                reader.close();
+            	if(reader != null)
+            		reader.close();
             } catch (IOException ex) {
                 Logger.getLogger(ExpositoUtilities.class.getName()).log(Level.SEVERE, null, ex);
             }
@@ -79,10 +80,16 @@ public class ExpositoUtilities {
     }
 
     public static void writeTextToFile(String file, String text) throws IOException {
-        BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-        writer.write(text);
-        writer.flush();
-        writer.close();
+		BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+    	try {
+            writer.write(text);
+            writer.flush();
+            writer.close();
+    	} catch (IOException e) {
+    		   System.out.println("error");
+    	} finally {
+            writer.close();
+    	}
     }
 
     public static String getFormat(String string) {

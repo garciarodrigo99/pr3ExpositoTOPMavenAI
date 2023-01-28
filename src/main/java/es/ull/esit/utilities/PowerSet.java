@@ -4,6 +4,7 @@ import java.util.BitSet;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.NoSuchElementException;
 
 /** 
  *  @brief Sirve para calcular todos los subconjuntos de un conjunto dado.
@@ -29,6 +30,11 @@ public class PowerSet<E> implements Iterator<Set<E>>, Iterable<Set<E>> {
 
     @Override
     public Set<E> next() {
+    	
+    	if(!hasNext()){
+  	      throw new NoSuchElementException();
+  	    }
+    	
         Set<E> returnSet = new TreeSet<>();
         for (int i = 0; i < this.arr.length; i++) {
             if (this.bset.get(i)) {
@@ -53,6 +59,7 @@ public class PowerSet<E> implements Iterator<Set<E>>, Iterable<Set<E>> {
 
     @Override
     public Iterator<Set<E>> iterator() {
-        return this;
+    	Iterator<Set<E>> iteratorReturn = this;
+        return iteratorReturn;
     }
 }
