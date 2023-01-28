@@ -1,0 +1,161 @@
+.TH "top.TOPTWSolution" 3 "Sat Jan 28 2023" "Version v2" "ExpositoTOP" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+top.TOPTWSolution
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTOPTWSolution\fP (\fBTOPTW\fP problem)"
+.br
+.ti -1c
+.RI "void \fBinitSolution\fP ()"
+.br
+.ti -1c
+.RI "boolean \fBisDepot\fP (int c)"
+.br
+.ti -1c
+.RI "boolean \fBisEqual\fP (\fBTOPTWSolution\fP otherSolution)"
+.br
+.ti -1c
+.RI "int \fBgetAvailableVehicles\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetCreatedRoutes\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetDistance\fP (int x, int y)"
+.br
+.ti -1c
+.RI "void \fBsetAvailableVehicles\fP (int availableVehicles)"
+.br
+.ti -1c
+.RI "int \fBgetPredecessor\fP (int customer)"
+.br
+.ti -1c
+.RI "int[] \fBgetPredecessors\fP ()"
+.br
+.ti -1c
+.RI "\fBTOPTW\fP \fBgetProblem\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetObjectiveFunctionValue\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetPositionInRoute\fP (int customer)"
+.br
+.ti -1c
+.RI "int \fBgetSuccessor\fP (int customer)"
+.br
+.ti -1c
+.RI "int[] \fBgetSuccessors\fP ()"
+.br
+.ti -1c
+.RI "int \fBgetIndexRoute\fP (int index)"
+.br
+.ti -1c
+.RI "double \fBgetWaitingTime\fP (int customer)"
+.br
+.ti -1c
+.RI "void \fBsetObjectiveFunctionValue\fP (double objectiveFunctionValue)"
+.br
+.ti -1c
+.RI "void \fBsetPositionInRoute\fP (int customer, int position)"
+.br
+.ti -1c
+.RI "void \fBsetPredecessor\fP (int customer, int predecessor)"
+.br
+.ti -1c
+.RI "void \fBsetSuccessor\fP (int customer, int succesor)"
+.br
+.ti -1c
+.RI "void \fBsetWaitingTime\fP (int customer, int waitingTime)"
+.br
+.ti -1c
+.RI "String \fBgetInfoSolution\fP ()"
+.br
+.ti -1c
+.RI "double \fBevaluateFitness\fP ()"
+.br
+.ti -1c
+.RI "int \fBaddRoute\fP ()"
+.br
+.ti -1c
+.RI "double \fBprintSolution\fP ()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final int \fBNO_INITIALIZED\fP = \-1"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "top\&.TOPTWSolution\&.TOPTWSolution (\fBTOPTW\fP problem)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "int top\&.TOPTWSolution\&.addRoute ()"
+
+.SS "double top\&.TOPTWSolution\&.evaluateFitness ()"
+
+.SS "int top\&.TOPTWSolution\&.getAvailableVehicles ()"
+
+.SS "int top\&.TOPTWSolution\&.getCreatedRoutes ()"
+
+.SS "double top\&.TOPTWSolution\&.getDistance (int x, int y)"
+
+.SS "int top\&.TOPTWSolution\&.getIndexRoute (int index)"
+
+.SS "String top\&.TOPTWSolution\&.getInfoSolution ()"
+
+.SS "double top\&.TOPTWSolution\&.getObjectiveFunctionValue ()"
+
+.SS "int top\&.TOPTWSolution\&.getPositionInRoute (int customer)"
+
+.SS "int top\&.TOPTWSolution\&.getPredecessor (int customer)"
+
+.SS "int[] top\&.TOPTWSolution\&.getPredecessors ()"
+
+.SS "\fBTOPTW\fP top\&.TOPTWSolution\&.getProblem ()"
+
+.SS "int top\&.TOPTWSolution\&.getSuccessor (int customer)"
+
+.SS "int[] top\&.TOPTWSolution\&.getSuccessors ()"
+
+.SS "double top\&.TOPTWSolution\&.getWaitingTime (int customer)"
+
+.SS "void top\&.TOPTWSolution\&.initSolution ()"
+
+.SS "boolean top\&.TOPTWSolution\&.isDepot (int c)"
+
+.SS "boolean top\&.TOPTWSolution\&.isEqual (\fBTOPTWSolution\fP otherSolution)"
+
+.SS "double top\&.TOPTWSolution\&.printSolution ()"
+
+.SS "void top\&.TOPTWSolution\&.setAvailableVehicles (int availableVehicles)"
+
+.SS "void top\&.TOPTWSolution\&.setObjectiveFunctionValue (double objectiveFunctionValue)"
+
+.SS "void top\&.TOPTWSolution\&.setPositionInRoute (int customer, int position)"
+
+.SS "void top\&.TOPTWSolution\&.setPredecessor (int customer, int predecessor)"
+
+.SS "void top\&.TOPTWSolution\&.setSuccessor (int customer, int succesor)"
+
+.SS "void top\&.TOPTWSolution\&.setWaitingTime (int customer, int waitingTime)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "final int top\&.TOPTWSolution\&.NO_INITIALIZED = \-1\fC [static]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ExpositoTOP from the source code\&.

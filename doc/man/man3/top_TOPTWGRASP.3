@@ -1,0 +1,96 @@
+.TH "top.TOPTWGRASP" 3 "Sat Jan 28 2023" "Version v2" "ExpositoTOP" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+top.TOPTWGRASP
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTOPTWGRASP\fP (\fBTOPTWSolution\fP sol)"
+.br
+.ti -1c
+.RI "void \fBGRASP\fP (int maxIterations, int maxSizeRCL)"
+.br
+.ti -1c
+.RI "int \fBaleatorySelectionRCL\fP (int maxTRCL)"
+.br
+.ti -1c
+.RI "int \fBfuzzySelectionBestFDRCL\fP (ArrayList< double[] > rcl)"
+.br
+.ti -1c
+.RI "int \fBfuzzySelectionAlphaCutRCL\fP (ArrayList< double[] > rcl, double alpha)"
+.br
+.ti -1c
+.RI "void \fBcomputeGreedySolution\fP (int maxSizeRCL)"
+.br
+.ti -1c
+.RI "void \fBupdateSolution\fP (double[] candidateSelected, ArrayList< ArrayList< Double > > departureTimes)"
+.br
+.ti -1c
+.RI "ArrayList< double[] > \fBcomprehensiveEvaluation\fP (ArrayList< Integer > customers, ArrayList< ArrayList< Double > > departureTimes)"
+.br
+.ti -1c
+.RI "\fBTOPTWSolution\fP \fBgetSolution\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetSolution\fP (\fBTOPTWSolution\fP solution)"
+.br
+.ti -1c
+.RI "int \fBgetSolutionTime\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetSolutionTime\fP (int solutionTime)"
+.br
+.ti -1c
+.RI "double \fBgetMaxScore\fP ()"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static double \fBNO_EVALUATED\fP = \-1\&.0"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "top\&.TOPTWGRASP\&.TOPTWGRASP (\fBTOPTWSolution\fP sol)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "int top\&.TOPTWGRASP\&.aleatorySelectionRCL (int maxTRCL)"
+
+.SS "ArrayList< double[] > top\&.TOPTWGRASP\&.comprehensiveEvaluation (ArrayList< Integer > customers, ArrayList< ArrayList< Double > > departureTimes)"
+
+.SS "void top\&.TOPTWGRASP\&.computeGreedySolution (int maxSizeRCL)"
+
+.SS "int top\&.TOPTWGRASP\&.fuzzySelectionAlphaCutRCL (ArrayList< double[] > rcl, double alpha)"
+
+.SS "int top\&.TOPTWGRASP\&.fuzzySelectionBestFDRCL (ArrayList< double[] > rcl)"
+
+.SS "double top\&.TOPTWGRASP\&.getMaxScore ()"
+
+.SS "\fBTOPTWSolution\fP top\&.TOPTWGRASP\&.getSolution ()"
+
+.SS "int top\&.TOPTWGRASP\&.getSolutionTime ()"
+
+.SS "void top\&.TOPTWGRASP\&.GRASP (int maxIterations, int maxSizeRCL)"
+
+.SS "void top\&.TOPTWGRASP\&.setSolution (\fBTOPTWSolution\fP solution)"
+
+.SS "void top\&.TOPTWGRASP\&.setSolutionTime (int solutionTime)"
+
+.SS "void top\&.TOPTWGRASP\&.updateSolution (double[] candidateSelected, ArrayList< ArrayList< Double > > departureTimes)"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "double top\&.TOPTWGRASP\&.NO_EVALUATED = \-1\&.0\fC [static]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ExpositoTOP from the source code\&.

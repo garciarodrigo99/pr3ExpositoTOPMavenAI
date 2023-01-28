@@ -1,0 +1,139 @@
+.TH "es.ull.esit.utilities.ExpositoUtilities" 3 "Sat Jan 28 2023" "Version v2" "ExpositoTOP" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+es.ull.esit.utilities.ExpositoUtilities
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBprintFile\fP (String file)"
+.br
+.ti -1c
+.RI "static String \fBsimplifyString\fP (String string)"
+.br
+.ti -1c
+.RI "static double[][] \fBmultiplyMatrices\fP (double a[][], double b[][])"
+.br
+.ti -1c
+.RI "static void \fBwriteTextToFile\fP (String file, String text)  throws IOException "
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (String string)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (double value)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (double value, int zeros)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (String string, int width)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (String string, int width, int alignment)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (ArrayList< String > strings, int width)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (ArrayList< Integer > strings)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (String[] strings, int width)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (String[][] matrixStrings, int width)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (String[] strings)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (String[] strings, int[] width)"
+.br
+.ti -1c
+.RI "static String \fBgetFormat\fP (String[] strings, int[] width, int[] alignment)"
+.br
+.ti -1c
+.RI "static boolean \fBisInteger\fP (String str)"
+.br
+.ti -1c
+.RI "static boolean \fBisDouble\fP (String str)"
+.br
+.ti -1c
+.RI "static boolean \fBisAcyclic\fP (int[][] distanceMatrix)"
+.br
+.ti -1c
+.RI "static boolean \fBthereIsPath\fP (int[][] distanceMatrix, int node)"
+.br
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "static final int \fBDEFAULT_COLUMN_WIDTH\fP = 10"
+.br
+.ti -1c
+.RI "static final int \fBALIGNMENT_LEFT\fP = 1"
+.br
+.ti -1c
+.RI "static final int \fBALIGNMENT_RIGHT\fP = 2"
+.br
+.in -1c
+.SH "Member Function Documentation"
+.PP 
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (ArrayList< Integer > strings)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (ArrayList< String > strings, int width)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (double value)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (double value, int zeros)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (String string)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (String string, int width)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (String string, int width, int alignment)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (String[] strings)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (String[] strings, int width)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (String[] strings, int[] width)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (String[] strings, int[] width, int[] alignment)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.getFormat (String matrixStrings[][], int width)\fC [static]\fP"
+
+.SS "static boolean es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.isAcyclic (int distanceMatrix[][])\fC [static]\fP"
+
+.SS "static boolean es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.isDouble (String str)\fC [static]\fP"
+
+.SS "static boolean es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.isInteger (String str)\fC [static]\fP"
+
+.SS "static double[][] es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.multiplyMatrices (double a[][], double b[][])\fC [static]\fP"
+
+.SS "static void es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.printFile (String file)\fC [static]\fP"
+
+.SS "static String es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.simplifyString (String string)\fC [static]\fP"
+
+.SS "static boolean es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.thereIsPath (int distanceMatrix[][], int node)\fC [static]\fP"
+
+.SS "static void es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.writeTextToFile (String file, String text) throws IOException\fC [static]\fP"
+
+.SH "Member Data Documentation"
+.PP 
+.SS "final int es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.ALIGNMENT_LEFT = 1\fC [static]\fP"
+
+.SS "final int es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.ALIGNMENT_RIGHT = 2\fC [static]\fP"
+
+.SS "final int es\&.ull\&.esit\&.utilities\&.ExpositoUtilities\&.DEFAULT_COLUMN_WIDTH = 10\fC [static]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ExpositoTOP from the source code\&.

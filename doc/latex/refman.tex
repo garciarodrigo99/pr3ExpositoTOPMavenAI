@@ -117,24 +117,6 @@
   \newunicodechar{²}{${}^{2}$}% Superscript two
   \newunicodechar{³}{${}^{3}$}% Superscript three
   % Hyperlinks
-    % Hyperlinks (required, but should be loaded last)
-    \ifpdf
-      \usepackage[pdftex,pagebackref=true]{hyperref}
-    \else
-      \ifxetex
-        \usepackage[pagebackref=true]{hyperref}
-      \else
-        \usepackage[ps2pdf,pagebackref=true]{hyperref}
-      \fi
-    \fi
-    \hypersetup{%
-      colorlinks=true,%
-      linkcolor=blue,%
-      citecolor=blue,%
-      unicode,%
-      pdftitle={Exposito\+TOP},%
-      pdfsubject={}%
-    }
   % Custom commands used by the header
   % Custom commands
   \newcommand{\clearemptydoublepage}{%
@@ -153,12 +135,6 @@
 \begin{document}
   \raggedbottom
   % Titlepage & ToC
-    % To avoid duplicate page anchors due to reuse of same numbers for
-    % the index (be it as roman numbers)
-    \hypersetup{pageanchor=false,
-                bookmarksnumbered=true,
-                pdfencoding=unicode
-               }
   \pagenumbering{alph}
   \begin{titlepage}
   \vspace*{7cm}
@@ -174,9 +150,46 @@
   \tableofcontents
   \clearemptydoublepage
   \pagenumbering{arabic}
-  % re-enable anchors again
-  \hypersetup{pageanchor=true}
 %--- Begin generated contents ---
+\chapter{Namespace Index}
+\input{namespaces}
+\chapter{Hierarchical Index}
+\input{hierarchy}
+\chapter{Class Index}
+\input{annotated}
+\chapter{File Index}
+\input{files}
+\chapter{Namespace Documentation}
+\input{namespacees_1_1ull_1_1esit}
+\input{namespacees_1_1ull_1_1esit_1_1utilities}
+\input{namespacees_1_1ull_1_1esit_1_1utils}
+\input{namespacetop}
+\chapter{Class Documentation}
+\input{classes_1_1ull_1_1esit_1_1AppTest}
+\input{classes_1_1ull_1_1esit_1_1utilities_1_1BellmanFord}
+\input{classes_1_1ull_1_1esit_1_1utilities_1_1ExpositoUtilities}
+\input{classtop_1_1mainTOPTW}
+\input{classes_1_1ull_1_1esit_1_1utils_1_1Pair}
+\input{classes_1_1ull_1_1esit_1_1utilities_1_1PowerSet}
+\input{classtop_1_1TOPTW}
+\input{classtop_1_1TOPTWEvaluator}
+\input{classtop_1_1TOPTWGRASP}
+\input{classtop_1_1TOPTWReader}
+\input{classtop_1_1TOPTWRoute}
+\input{classtop_1_1TOPTWSolution}
+\chapter{File Documentation}
+\input{BellmanFord_8java}
+\input{ExpositoUtilities_8java}
+\input{PowerSet_8java}
+\input{Pair_8java}
+\input{mainTOPTW_8java}
+\input{TOPTW_8java}
+\input{TOPTWEvaluator_8java}
+\input{TOPTWGRASP_8java}
+\input{TOPTWReader_8java}
+\input{TOPTWRoute_8java}
+\input{TOPTWSolution_8java}
+\input{AppTest_8java}
 %--- End generated contents ---
 % Index
   \backmatter

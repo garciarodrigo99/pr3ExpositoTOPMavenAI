@@ -1,0 +1,180 @@
+.TH "top.TOPTW" 3 "Sat Jan 28 2023" "Version v2" "ExpositoTOP" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+top.TOPTW
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBTOPTW\fP (int nodes, int routes)"
+.br
+.ti -1c
+.RI "boolean \fBisDepot\fP (int a)"
+.br
+.ti -1c
+.RI "double \fBgetDistance\fP (int[] route)"
+.br
+.ti -1c
+.RI "double \fBgetDistance\fP (ArrayList< Integer > route)"
+.br
+.ti -1c
+.RI "double \fBgetDistance\fP (ArrayList< Integer >[] routes)"
+.br
+.ti -1c
+.RI "void \fBcalculateDistanceMatrix\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetMaxTimePerRoute\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMaxTimePerRoute\fP (double maxTimePerRoute)"
+.br
+.ti -1c
+.RI "double \fBgetMaxRoutes\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetMaxRoutes\fP (double maxRoutes)"
+.br
+.ti -1c
+.RI "int \fBgetPOIs\fP ()"
+.br
+.ti -1c
+.RI "double \fBgetDistance\fP (int i, int j)"
+.br
+.ti -1c
+.RI "double \fBgetTime\fP (int i, int j)"
+.br
+.ti -1c
+.RI "int \fBgetNodes\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetNodes\fP (int nodes)"
+.br
+.ti -1c
+.RI "double \fBgetX\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBsetX\fP (int index, double x)"
+.br
+.ti -1c
+.RI "double \fBgetY\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBsetY\fP (int index, double y)"
+.br
+.ti -1c
+.RI "double \fBgetScore\fP (int index)"
+.br
+.ti -1c
+.RI "double[] \fBgetScore\fP ()"
+.br
+.ti -1c
+.RI "void \fBsetScore\fP (int index, double score)"
+.br
+.ti -1c
+.RI "double \fBgetReadyTime\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBsetReadyTime\fP (int index, double readyTime)"
+.br
+.ti -1c
+.RI "double \fBgetDueTime\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBsetDueTime\fP (int index, double dueTime)"
+.br
+.ti -1c
+.RI "double \fBgetServiceTime\fP (int index)"
+.br
+.ti -1c
+.RI "void \fBsetServiceTime\fP (int index, double serviceTime)"
+.br
+.ti -1c
+.RI "int \fBgetVehicles\fP ()"
+.br
+.ti -1c
+.RI "String \fBtoString\fP ()"
+.br
+.ti -1c
+.RI "int \fBaddNode\fP ()"
+.br
+.ti -1c
+.RI "int \fBaddNodeDepot\fP ()"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "top\&.TOPTW\&.TOPTW (int nodes, int routes)"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "int top\&.TOPTW\&.addNode ()"
+
+.SS "int top\&.TOPTW\&.addNodeDepot ()"
+
+.SS "void top\&.TOPTW\&.calculateDistanceMatrix ()"
+
+.SS "double top\&.TOPTW\&.getDistance (ArrayList< Integer > route)"
+
+.SS "double top\&.TOPTW\&.getDistance (ArrayList< Integer >[] routes)"
+
+.SS "double top\&.TOPTW\&.getDistance (int i, int j)"
+
+.SS "double top\&.TOPTW\&.getDistance (int[] route)"
+
+.SS "double top\&.TOPTW\&.getDueTime (int index)"
+
+.SS "double top\&.TOPTW\&.getMaxRoutes ()"
+
+.SS "double top\&.TOPTW\&.getMaxTimePerRoute ()"
+
+.SS "int top\&.TOPTW\&.getNodes ()"
+
+.SS "int top\&.TOPTW\&.getPOIs ()"
+
+.SS "double top\&.TOPTW\&.getReadyTime (int index)"
+
+.SS "double[] top\&.TOPTW\&.getScore ()"
+
+.SS "double top\&.TOPTW\&.getScore (int index)"
+
+.SS "double top\&.TOPTW\&.getServiceTime (int index)"
+
+.SS "double top\&.TOPTW\&.getTime (int i, int j)"
+
+.SS "int top\&.TOPTW\&.getVehicles ()"
+
+.SS "double top\&.TOPTW\&.getX (int index)"
+
+.SS "double top\&.TOPTW\&.getY (int index)"
+
+.SS "boolean top\&.TOPTW\&.isDepot (int a)"
+
+.SS "void top\&.TOPTW\&.setDueTime (int index, double dueTime)"
+
+.SS "void top\&.TOPTW\&.setMaxRoutes (double maxRoutes)"
+
+.SS "void top\&.TOPTW\&.setMaxTimePerRoute (double maxTimePerRoute)"
+
+.SS "void top\&.TOPTW\&.setNodes (int nodes)"
+
+.SS "void top\&.TOPTW\&.setReadyTime (int index, double readyTime)"
+
+.SS "void top\&.TOPTW\&.setScore (int index, double score)"
+
+.SS "void top\&.TOPTW\&.setServiceTime (int index, double serviceTime)"
+
+.SS "void top\&.TOPTW\&.setX (int index, double x)"
+
+.SS "void top\&.TOPTW\&.setY (int index, double y)"
+
+.SS "String top\&.TOPTW\&.toString ()"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ExpositoTOP from the source code\&.

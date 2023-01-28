@@ -1,0 +1,238 @@
+\doxysection{top.\+TOPTWSolution Class Reference}
+\label{classtop_1_1TOPTWSolution}\index{top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ TOPTWSolution} (\textbf{ TOPTW} problem)
+\item 
+void \textbf{ init\+Solution} ()
+\item 
+boolean \textbf{ is\+Depot} (int c)
+\item 
+boolean \textbf{ is\+Equal} (\textbf{ TOPTWSolution} other\+Solution)
+\item 
+int \textbf{ get\+Available\+Vehicles} ()
+\item 
+int \textbf{ get\+Created\+Routes} ()
+\item 
+double \textbf{ get\+Distance} (int x, int y)
+\item 
+void \textbf{ set\+Available\+Vehicles} (int available\+Vehicles)
+\item 
+int \textbf{ get\+Predecessor} (int customer)
+\item 
+int[$\,$] \textbf{ get\+Predecessors} ()
+\item 
+\textbf{ TOPTW} \textbf{ get\+Problem} ()
+\item 
+double \textbf{ get\+Objective\+Function\+Value} ()
+\item 
+int \textbf{ get\+Position\+In\+Route} (int customer)
+\item 
+int \textbf{ get\+Successor} (int customer)
+\item 
+int[$\,$] \textbf{ get\+Successors} ()
+\item 
+int \textbf{ get\+Index\+Route} (int index)
+\item 
+double \textbf{ get\+Waiting\+Time} (int customer)
+\item 
+void \textbf{ set\+Objective\+Function\+Value} (double objective\+Function\+Value)
+\item 
+void \textbf{ set\+Position\+In\+Route} (int customer, int position)
+\item 
+void \textbf{ set\+Predecessor} (int customer, int predecessor)
+\item 
+void \textbf{ set\+Successor} (int customer, int succesor)
+\item 
+void \textbf{ set\+Waiting\+Time} (int customer, int waiting\+Time)
+\item 
+String \textbf{ get\+Info\+Solution} ()
+\item 
+double \textbf{ evaluate\+Fitness} ()
+\item 
+int \textbf{ add\+Route} ()
+\item 
+double \textbf{ print\+Solution} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static final int \textbf{ NO\+\_\+\+INITIALIZED} = -\/1
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{classtop_1_1TOPTWSolution_a45192e5d12a12ec58030397041b4a369}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!TOPTWSolution@{TOPTWSolution}}
+\index{TOPTWSolution@{TOPTWSolution}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{TOPTWSolution()}
+{\footnotesize\ttfamily top.\+TOPTWSolution.\+TOPTWSolution (\begin{DoxyParamCaption}\item[{\textbf{ TOPTW}}]{problem }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classtop_1_1TOPTWSolution_a74df6b4b5c27f611de4a25e34d0bd907}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!addRoute@{addRoute}}
+\index{addRoute@{addRoute}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{addRoute()}
+{\footnotesize\ttfamily int top.\+TOPTWSolution.\+add\+Route (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a07ec0a724167095ad061040e11136a19}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!evaluateFitness@{evaluateFitness}}
+\index{evaluateFitness@{evaluateFitness}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{evaluateFitness()}
+{\footnotesize\ttfamily double top.\+TOPTWSolution.\+evaluate\+Fitness (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a38cf34301737c1b75a264414a8bc60d1}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getAvailableVehicles@{getAvailableVehicles}}
+\index{getAvailableVehicles@{getAvailableVehicles}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getAvailableVehicles()}
+{\footnotesize\ttfamily int top.\+TOPTWSolution.\+get\+Available\+Vehicles (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a42484d84c9770ebbb8778fc149abbb58}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getCreatedRoutes@{getCreatedRoutes}}
+\index{getCreatedRoutes@{getCreatedRoutes}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getCreatedRoutes()}
+{\footnotesize\ttfamily int top.\+TOPTWSolution.\+get\+Created\+Routes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a822040f322ba94a35ed101f6c53f0b33}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getDistance@{getDistance}}
+\index{getDistance@{getDistance}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getDistance()}
+{\footnotesize\ttfamily double top.\+TOPTWSolution.\+get\+Distance (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a0c4692927923549f0e137ea74850a8b6}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getIndexRoute@{getIndexRoute}}
+\index{getIndexRoute@{getIndexRoute}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getIndexRoute()}
+{\footnotesize\ttfamily int top.\+TOPTWSolution.\+get\+Index\+Route (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a82688039e6f671f6d2f57a1888fe3c21}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getInfoSolution@{getInfoSolution}}
+\index{getInfoSolution@{getInfoSolution}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getInfoSolution()}
+{\footnotesize\ttfamily String top.\+TOPTWSolution.\+get\+Info\+Solution (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_ae21c91d29a531bbdc0e8102d56d8a40a}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getObjectiveFunctionValue@{getObjectiveFunctionValue}}
+\index{getObjectiveFunctionValue@{getObjectiveFunctionValue}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getObjectiveFunctionValue()}
+{\footnotesize\ttfamily double top.\+TOPTWSolution.\+get\+Objective\+Function\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_aa65b95c4e6ac88aca9ce638de8c7997c}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getPositionInRoute@{getPositionInRoute}}
+\index{getPositionInRoute@{getPositionInRoute}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getPositionInRoute()}
+{\footnotesize\ttfamily int top.\+TOPTWSolution.\+get\+Position\+In\+Route (\begin{DoxyParamCaption}\item[{int}]{customer }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a7f54a84cf209db722ecd59ab2f2452f1}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getPredecessor@{getPredecessor}}
+\index{getPredecessor@{getPredecessor}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getPredecessor()}
+{\footnotesize\ttfamily int top.\+TOPTWSolution.\+get\+Predecessor (\begin{DoxyParamCaption}\item[{int}]{customer }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a1f60b3fc07b4c358ed5df797d0813862}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getPredecessors@{getPredecessors}}
+\index{getPredecessors@{getPredecessors}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getPredecessors()}
+{\footnotesize\ttfamily int[$\,$] top.\+TOPTWSolution.\+get\+Predecessors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a4ed9a239d683e7770681aba78e8121a3}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getProblem@{getProblem}}
+\index{getProblem@{getProblem}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getProblem()}
+{\footnotesize\ttfamily \textbf{ TOPTW} top.\+TOPTWSolution.\+get\+Problem (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a559f4d8cc4b93d998243d7479fd6da8d}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getSuccessor@{getSuccessor}}
+\index{getSuccessor@{getSuccessor}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getSuccessor()}
+{\footnotesize\ttfamily int top.\+TOPTWSolution.\+get\+Successor (\begin{DoxyParamCaption}\item[{int}]{customer }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a69ab8c19838d40f240fc7545d0f2961f}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getSuccessors@{getSuccessors}}
+\index{getSuccessors@{getSuccessors}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getSuccessors()}
+{\footnotesize\ttfamily int[$\,$] top.\+TOPTWSolution.\+get\+Successors (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a0b4edd4fdee2ebef25c412a0c2dba0c3}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!getWaitingTime@{getWaitingTime}}
+\index{getWaitingTime@{getWaitingTime}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{getWaitingTime()}
+{\footnotesize\ttfamily double top.\+TOPTWSolution.\+get\+Waiting\+Time (\begin{DoxyParamCaption}\item[{int}]{customer }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_ae2cebb1c58169b05b0dcccd65eabc654}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!initSolution@{initSolution}}
+\index{initSolution@{initSolution}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{initSolution()}
+{\footnotesize\ttfamily void top.\+TOPTWSolution.\+init\+Solution (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a56640aeccb436bb9dbb33381c274443f}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!isDepot@{isDepot}}
+\index{isDepot@{isDepot}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{isDepot()}
+{\footnotesize\ttfamily boolean top.\+TOPTWSolution.\+is\+Depot (\begin{DoxyParamCaption}\item[{int}]{c }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_af8d2bca9c912e4ed453210e92dd9d544}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!isEqual@{isEqual}}
+\index{isEqual@{isEqual}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{isEqual()}
+{\footnotesize\ttfamily boolean top.\+TOPTWSolution.\+is\+Equal (\begin{DoxyParamCaption}\item[{\textbf{ TOPTWSolution}}]{other\+Solution }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a5df1eb3b6f4bc1265f12ffc201d86b0d}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!printSolution@{printSolution}}
+\index{printSolution@{printSolution}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{printSolution()}
+{\footnotesize\ttfamily double top.\+TOPTWSolution.\+print\+Solution (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_ac8cd7cc46e73f9e1419f5b3e4c9902ef}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!setAvailableVehicles@{setAvailableVehicles}}
+\index{setAvailableVehicles@{setAvailableVehicles}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{setAvailableVehicles()}
+{\footnotesize\ttfamily void top.\+TOPTWSolution.\+set\+Available\+Vehicles (\begin{DoxyParamCaption}\item[{int}]{available\+Vehicles }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a7d9b5e1b44fd3febe537d911eb2d9fa0}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!setObjectiveFunctionValue@{setObjectiveFunctionValue}}
+\index{setObjectiveFunctionValue@{setObjectiveFunctionValue}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{setObjectiveFunctionValue()}
+{\footnotesize\ttfamily void top.\+TOPTWSolution.\+set\+Objective\+Function\+Value (\begin{DoxyParamCaption}\item[{double}]{objective\+Function\+Value }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_abf3511e900c029944306d2e4ede400df}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!setPositionInRoute@{setPositionInRoute}}
+\index{setPositionInRoute@{setPositionInRoute}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{setPositionInRoute()}
+{\footnotesize\ttfamily void top.\+TOPTWSolution.\+set\+Position\+In\+Route (\begin{DoxyParamCaption}\item[{int}]{customer,  }\item[{int}]{position }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a77bd60e16c5a4672e71d5f525cbe5e25}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!setPredecessor@{setPredecessor}}
+\index{setPredecessor@{setPredecessor}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{setPredecessor()}
+{\footnotesize\ttfamily void top.\+TOPTWSolution.\+set\+Predecessor (\begin{DoxyParamCaption}\item[{int}]{customer,  }\item[{int}]{predecessor }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_a2b1fb005fd139112ce576687b1dd7c34}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!setSuccessor@{setSuccessor}}
+\index{setSuccessor@{setSuccessor}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{setSuccessor()}
+{\footnotesize\ttfamily void top.\+TOPTWSolution.\+set\+Successor (\begin{DoxyParamCaption}\item[{int}]{customer,  }\item[{int}]{succesor }\end{DoxyParamCaption})}
+
+\mbox{\label{classtop_1_1TOPTWSolution_af7588e114fce6bec7b8961a9e1dca206}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!setWaitingTime@{setWaitingTime}}
+\index{setWaitingTime@{setWaitingTime}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{setWaitingTime()}
+{\footnotesize\ttfamily void top.\+TOPTWSolution.\+set\+Waiting\+Time (\begin{DoxyParamCaption}\item[{int}]{customer,  }\item[{int}]{waiting\+Time }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\label{classtop_1_1TOPTWSolution_a92d1f9d7c627851f410839eef407b0e1}} 
+\index{top.TOPTWSolution@{top.TOPTWSolution}!NO\_INITIALIZED@{NO\_INITIALIZED}}
+\index{NO\_INITIALIZED@{NO\_INITIALIZED}!top.TOPTWSolution@{top.TOPTWSolution}}
+\doxysubsubsection{NO\_INITIALIZED}
+{\footnotesize\ttfamily final int top.\+TOPTWSolution.\+NO\+\_\+\+INITIALIZED = -\/1\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/top/\textbf{ TOPTWSolution.\+java}\end{DoxyCompactItemize}
